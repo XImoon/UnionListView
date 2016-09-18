@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="px_1_w750">0.4267dp</dimen>
+    <dimen name="px_3_w750">1.28dp</dimen>
+    <dimen name="px_5_w750">2.1333dp</dimen>
+    <dimen name="px_32_w750">13.6533dp</dimen>
+    <dimen name="px_100_w750">42.6667dp</dimen>
+    <dimen name="px_300_w750">128.0dp</dimen>
+</resources>

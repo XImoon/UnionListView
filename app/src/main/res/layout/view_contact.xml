@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px_100_w750">
+
+
+    <RelativeLayout
+        android:id="@+id/contact_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/contact_lefttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/black_90" />
+
+        <View
+            android:id="@+id/left_line"
+            android:layout_width="@dimen/px_100_w750"
+            android:layout_height="@dimen/px_1_w750"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/px_32_w750"
+            android:layout_toLeftOf="@id/contact_lefttext"
+            android:background="@color/f0"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/right_line"
+            android:layout_width="@dimen/px_100_w750"
+            android:layout_height="@dimen/px_1_w750"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/px_32_w750"
+            android:layout_toRightOf="@id/contact_lefttext"
+            android:background="@color/f0"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/contact_spc"
+        android:layout_width="@dimen/px_5_w750"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contact_container"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/contact_container"
+        android:background="@color/color_f94972"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
